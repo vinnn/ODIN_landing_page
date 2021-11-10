@@ -1,3 +1,125 @@
+* {
+    border-style: dotted;
+    border-width: 1px;
+}
+.header, 
+.contn1,
+.contn2,
+.contn3,
+.contn4,
+.footer {
+    border-color: pink;
+}
+
+/* GENERAL BODY STYLE */
+body {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    margin: 0;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;    
+}
+
+
+/* HEADER STYLES */
+.header {
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo {
+    color: white;
+    margin-left: 150px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+}
+.header-links {
+    margin-right: 150px;
+}
+ul {
+    list-style-type: none;
+    font-size: 15px;
+
+    display: flex;
+    gap: 18px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* CONTN1 STYLES */
+.contn1 {
+    background-color: black;
+
+    flex: 1 1 auto;
+
+    display: flex;
+}
+
+.contn1-title {
+    color: white;
+}
+.contn1-text {
+    color: white;
+}
+.contn1-right {
+    background-color: grey;
+    color: white
+}
+
+
+/* CONTN2 STYLES */
+.contn2 {
+    background-color: white;
+
+    flex: 1 1 auto;
+}
+
+
+
+
+/* CONTN3 STYLES */
+.contn3 {
+    background-color: rgb(231, 228, 228);
+
+    flex: 1 1 auto;
+}
+
+/* CONTN4 STYLES */
+.contn4 {
+    background-color: white;
+
+    flex: 1 1 auto;
+}
+
+
+
+
+
+
+/* FOOTER STYLES */
+.footer {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-top: auto;
+    margin-bottom: 0;
+
+    display: flex;
+    justify-content: center;
+}
 
 
 
