@@ -1,6 +1,6 @@
 * {
-    border-style: dotted;
-    border-width: 1px;
+    /* border-style: dotted; */
+    /* border-width: 1px; */
 }
 .header, 
 .contn1,
@@ -11,7 +11,9 @@
     border-color: pink;
 }
 
+/**********************/
 /* GENERAL BODY STYLE */
+/**********************/
 body {
     border-style: solid;
     border-width: 5px;
@@ -24,8 +26,9 @@ body {
     flex-direction: column;    
 }
 
-
+/*****************/
 /* HEADER STYLES */
+/*****************/
 .header {
     background-color: black;
 
@@ -56,11 +59,12 @@ a {
     color: white;
 }
 
-
+/*****************/
 /* CONTN1 STYLES */
+/*****************/
 .contn1 {
     background-color: black;
-    padding: 50px 150px;
+    padding: 20px 150px;
 
     flex: 1 1 auto;
 
@@ -77,17 +81,16 @@ a {
     but can shrink and grow as per 
     grow:1 and shrink:1 */
     width: 350px;
-    height: 200px;
+    height: 120px;
     flex: 1 1 auto;
 
     margin-right: 40px;
-    font-size: 18px; 
 }
 
 .contn1-title {
     font-weight: bold;
     color: white;
-    font-size: 48px;
+    font-size: 28px;
 
 
     line-height: 1;
@@ -96,10 +99,21 @@ a {
 .contn1-text {
     color: white;
     margin: 12px 0;
+    font-size: 14px; 
 }
+.contn1-btn {
+    color: white;
+    font-size: 12px; 
+    background-color: blue;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+
 .contn1-right {
     background-color: grey;
     color: white;
+    font-size: 14px;
 
     /*I: fix the width initially
     the flex-basis (so that it keeps 
@@ -108,50 +122,136 @@ a {
     but can shrink and grow as per 
     grow:1 and shrink:1 */
     width: 350px;
-    height: 200px;
+    height: 120px;
     flex: 1 1 auto;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.contn1-btn {
-    color: white;
-    background-color: blue;
-    padding: 5px 20px;
-    border-radius: 5px;
-}
 
+
+/*****************/
 /* CONTN2 STYLES */
+/*****************/
 .contn2 {
+    flex: 1 1 auto;
+
     background-color: white;
 
+    display: flex;
+    flex-direction: column;
+}
+
+.contn2-title {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+.contn2-items {
     flex: 1 1 auto;
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    min-height: 140px;
+}
+
+.item {
+    height: 90px;
+    width: 100px;
+
+    display: flex;
+    flex-direction: column;
+}
+.item-img {
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    border-radius: 12px;
+    padding: 40px;
+}
+.item-title {
+    font-size: 12px;
+    text-align: center;
 }
 
 
-
-
+/*****************/
 /* CONTN3 STYLES */
+/*****************/
 .contn3 {
+    flex: 1 1 auto;
+
     background-color: rgb(231, 228, 228);
 
-    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding-right: 150px;
+    padding-left: 150px;
 }
 
+.contn3-text {
+    font-size: 22px;
+    font-style: italic;
+}
+.contn3-author {
+    font-weight: bold;
+    margin-left: auto;
+}
+
+
+
+/*****************/
 /* CONTN4 STYLES */
+/*****************/
 .contn4 {
-    background-color: white;
+    flex: 1 1 auto;
 
+    background-color: blue;
+    border-radius: 8px;
+    margin: 50px 150px;
+
+    display: flex;
+    align-items: center;
+}
+
+.contn4-content {
+    flex: 1 1 auto;
+    background-color: white;
+    margin: 50px 150px;
+
+}
+
+.contn4-title {
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+}
+.contn4-text {
+    background-color: blue;
+    color: white;
+}
+.contn4-btn {
+    color: white;
+    background-color: blue;
+    border-color: white;
+    border-radius: 4px;
+    border-style: solid;
+    padding: 4px 18px;
+    margin-right: 80px;
     flex: 1 1 auto;
 }
 
-
-
-
-
-
+/*****************/
 /* FOOTER STYLES */
+/*****************/
 .footer {
     background-color: black;
     color: white;
