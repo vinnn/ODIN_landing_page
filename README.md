@@ -10,4 +10,5 @@ This project is to practice the concepts learned in the Odin Project Foundation 
 - Git/Github
 
 ## View page
+https://vinnn.github.io/ODIN_landing_page/
 
